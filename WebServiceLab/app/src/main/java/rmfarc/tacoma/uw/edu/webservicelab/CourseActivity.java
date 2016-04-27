@@ -89,7 +89,6 @@ public class CourseActivity extends AppCompatActivity implements CourseListFragm
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
     public void onListFragmentInteraction(Course item) {
 
         CourseDetailFragment courseDetailFragment = new CourseDetailFragment();
